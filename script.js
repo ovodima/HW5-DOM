@@ -1,8 +1,8 @@
 const submit = document.querySelector('.submit')
 
 
-submit.addEventListener('click', (e) => {
-    // e.preventDefault()
+submit.addEventListener('click', () => {
+    
     const input1 = document.querySelector('.input1')
     const input2 = document.querySelector('.input2')
 
