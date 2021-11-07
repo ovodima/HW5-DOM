@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ab8e3d1df6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <title>Lesson-5</title>
@@ -11,11 +12,20 @@
 </head>
 <body>
     <div class="main">
-        <form action="#">
-            <input type="text" class="input" placeholder="User Name">
-            <input type="password" class="input" placeholder="Password">
-            <button type="submit">Login</button>
-            <p>Not registred? <a href="#"> Create an account</a></p>
+       
+        <form class='form' action="#">
+            <div class="inputs">
+                <input type="text" class="input" placeholder="User Name" required>
+                <p class="out"></p>
+                <input type="password" class="input" placeholder="Password" required>
+                <p class="out"></p>
+            </div>
+            <input type="submit" value="Login" class="submit">
+            
+            <div class="fot">
+                <p>Not registred? <a href="#"> Create an account</a></p>
+            </div>
+           
         </form>
     </div>
 </body>
